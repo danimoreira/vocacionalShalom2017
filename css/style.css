@@ -1,0 +1,237 @@
+/* DEFINIÇÕES GERAIS */
+@font-face {
+	font-family: 'Cover-Ligth';
+	src: url("../fonts/Coves-Light.otf");
+}
+
+@font-face {
+	font-family: 'Cover-Bold';
+	src: url("../fonts/Coves-Bold.otf");
+}
+
+* {
+	font-family: "Cover-Bold";
+	text-align: justify;
+}
+
+/* BACKGROUND */
+
+.bg-amarelo {
+	background-color: #f7be07;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.bg-branco {
+	background-color: #FFF;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.bg-marrom {
+	background-color: #5e371b;
+	padding-top: 20px;
+	box-shadow: 3px 0 19px rgb(0,0,0);
+}
+
+/* IMAGEM LOGO DA PÁGINA */
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	.img-logo-section {
+		width: 25%;
+		margin-bottom: 10px;
+	}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.img-logo-section {
+		width: 25%;
+		margin-bottom: 10px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.img-logo-section {
+		width: 25%;
+		margin-bottom: 10px;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.img-logo-section {
+		width: 30%;
+		margin-bottom: 5px;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.img-logo-section {
+		width: 70%;
+		margin-bottom: 5px;
+	}
+
+	.img-convencao {
+		width: 80%;
+	}
+}
+
+/* MENU SUPERIOR */
+.link-menu-superior li {
+	margin-right: 5px;
+}
+
+.link-menu-superior li a:hover {
+	text-shadow: 2px 2px 2px rgba(248, 148, 6, .6);
+}
+
+.img-downloads img {
+	 object-fit: fill;
+	 height: 25em;
+	 width: 25em;
+	 margin-bottom: 1em;
+	 
+}
+
+.img-carrossel {
+	max-height: 800px;
+	max-width: 800px;
+}
+
+.img-downloads :hover {
+	box-shadow: 4px 4px 3px rgba(150, 150, 150, .3);
+}
+
+.link-menu-superior a {
+	color: black;
+	text-decoration: none;
+}
+
+.link-menu-superior a:hover {
+	color: rgba(0, 0, 0, .5);
+	text-decoration: none;
+}
+
+/* DEVELOPERS */
+.list-developers a {
+	text-decoration: none;
+	color: #f7be07;
+	font-size: 9px;
+}
+
+.list-developers a:hover {
+	text-decoration: none;
+	color: rgba(247, 190, 7, .5);
+	font-size: 9px;
+}
+
+.list-developers {
+	color: #f7be07;
+	font-size: 9px;
+	margin-top: 20px;
+}
+
+
+.img-convencao img {
+	width: 30%;
+	margin-right: 0;
+}
+
+/* BLOG */
+/* image thumbnail */
+.thumb {
+    display: block;
+	width: 100%;
+	margin: 0;
+}
+
+/* Style to article Author */
+.by-author {
+	font-style: italic;
+	line-height: 1.3;
+	color: #aab6aa;
+}
+
+.list-rede-social {
+	margin-top: 30px;
+}
+
+.rede-social a {
+	text-decoration: none;
+	color: #FFF;
+
+}
+
+
+/* Main Article [Module]
+-------------------------------------
+* Featured Article Thumbnail
+* have a image and a text title.
+*/
+.featured-article {
+	width: 482px;
+	height: 350px;
+	position: relative;
+	margin-bottom: 1em;
+}
+
+.featured-article .block-title {
+	/* Position & Box Model */
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	/* background */
+	background: rgba(0,0,0,0.7);
+	/* Width/Height */
+	padding: .5em;
+	width: 100%;
+	/* Text color */
+	color: #fff;
+}
+
+.featured-article .block-title h2 {
+	margin: 0;
+}
+
+/* Featured Articles List [BS3]
+--------------------------------------------
+* show the last 3 articles post
+*/
+
+.main-list {
+	padding-left: .5em;
+}
+
+.main-list .media {
+	padding-bottom: 1.1em;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+#backtop {
+    padding:10px;
+    position:fixed; 
+    top: 80%;
+    right: 10px; 
+    z-index: 10;
+}
+
+#backtop a {
+    color: #F89406;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+#backtop a:hover {
+	text-shadow: 1px 1px 2px rgba(150, 150, 150, .7);
+}
+
+.rede-social a:hover {
+	color: #F89406;
+	text-shadow: 2px 2px 2px rgba(248, 148, 6, .6);
+}
