@@ -36,7 +36,7 @@
 	<div class="container-fluid bg-amarelo" id="home">
 		
 		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 ">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xs-12">
 				<div class="embed-responsive">
 					  <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Acomshalom%3Aplaylist%3A3YkEAYu1yc5G8RIj0LKOib" frameborder="0" allowtransparency="true" width="200px" height="100px"></iframe>				 
 				</div>
@@ -45,7 +45,7 @@
 		</div>
 
 		<div class="row ">
-			<div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 ">
+			<div class="col-sm-12 col-md-12 col-lg-12 hidden-xs">
 				<img src="img/lg-vocacional.png" class="img-responsive center-block img-logo-section" alt="Vocacional Shalom 2017">
 			</div>			
 		</div>
@@ -65,9 +65,26 @@
 		</div>
 		<div class="row">
 			<div class="hidden-sm hidden-md hidden-lg col-xs-12">
-				<ul class="list-inline text-center link-menu-superior">
-					<li><a class="itemmenu" href="#">ÁREA DO VOCACIONADO</a></li>
-				</ul>
+				<nav class="navbar navbar-default navbar-fixed-top link-menu-superior">
+					<div class="container">
+					 <div class="navbar-header">
+					     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-navbar">
+					         <i class="fa fa-bars" aria-hidden="true"></i>
+					     </button>
+					     <span class="navbar-brand"><img src="img/lg-vocacional.png" class="img-responsive center-block img-logo-section img-title-vocacional" alt="Vocacional Shalom 2017"></span>					     	
+					 </div>
+					 <div class="collapse navbar-collapse" id="top-navbar">
+					     <ul class="nav navbar-nav navbar-right">
+					         <li><a href="#carisma">CARISMA SHALOM</a></li>
+					         <li><a href="#vocacional">VOCACIONAL</a></li>
+					         <li><a href="#fotos">FOTOS</a></li>
+					         <li><a href="#videos">VÍDEOS</a></li>
+					         <li><a href="#downloads">DOWNLOADS</a></li>
+					         <li><a href="http://www.comshalom.org/hotsite-vocacional/lib/joomla/">BLOG</a></li>
+					         <li><a href="http://www.comshalom.org/hotsite-vocacional/lib/joomla/index.php/area-do-vocacionado">ÁREA DO VOCACIONADO</a></li>
+					     </ul>
+					</div>
+				</div>				
 			</div>
 
 		</div>

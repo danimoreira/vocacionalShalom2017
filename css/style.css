@@ -34,6 +34,23 @@
 	box-shadow: 3px 0 19px rgb(0,0,0);
 }
 
+/* BARRA DE NAVEGAÇÃO */
+
+.navbar-default {
+    background-color: #f2b506;
+    border-color: #f2b506;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #f2b506;
+}
+
+.carousel-inner > .item > img {
+    position-relative;
+    min-width: 100%;
+    height: 200px; /* Altura da imagem dentro do Carousel */
+}
+
 /* IMAGEM LOGO DA PÁGINA */
 
 /* Large desktops and laptops */
@@ -42,13 +59,26 @@
 		width: 25%;
 		margin-bottom: 10px;
 	}
+
+	#CarouselImg img {
+		height: 800px;
+		width: 100%;
+		object-fit: contain;
+	}
+
 }
 
 /* Landscape tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {	
 	.img-logo-section {
 		width: 25%;
 		margin-bottom: 10px;
+	}
+
+	#CarouselImg img {
+		height: 600px;
+		width: 100%;
+		object-fit: contain;
 	}
 }
 
@@ -58,6 +88,12 @@
 		width: 25%;
 		margin-bottom: 10px;
 	}
+
+	#CarouselImg img {
+		height: 400px;
+		width: 100%;
+		object-fit: contain;
+	}
 }
 
 /* Landscape phones and portrait tablets */
@@ -65,6 +101,16 @@
 	.img-logo-section {
 		width: 30%;
 		margin-bottom: 5px;
+	}
+
+	.img-title-vocacional {
+		margin-top: -10%;
+	}
+
+	#CarouselImg img {
+		height: 200px;
+		width: 100%;
+		object-fit: contain;
 	}
 }
 
@@ -77,6 +123,12 @@
 
 	.img-convencao {
 		width: 80%;
+	}
+
+	#CarouselImg img {
+		height: 200px;
+		width: 100%;
+		object-fit: contain;
 	}
 }
 
@@ -94,12 +146,6 @@
 	 height: 25em;
 	 width: 25em;
 	 margin-bottom: 1em;
-	 
-}
-
-.img-carrossel {
-	max-height: 800px;
-	max-width: 800px;
 }
 
 .img-downloads :hover {
